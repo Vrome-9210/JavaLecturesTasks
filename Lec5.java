@@ -8,13 +8,15 @@ public class Lec5 {
 //        int sdl1 = sd(100, srz1);
 //        System.out.println(sp(sum1, sdl1));
 
-        strSum("Это первая строка", "Это вторая строка которая переносится на следующую строку");
-
+        String firstLine = "Это первая строка";
+        String secondLine = "Это вторая строка которая переносится на следующую строку";
+        System.out.println(strSum(firstLine, secondLine));
+        
     }
 
 
-    public static void strSum (String line1, String line2) {
-        System.out.println(line1 + "\n" + line2);
+   public static String strSum (String line1, String line2) {
+        return (line1 + "\n" + line2);
     }
 
     public static int ss(int num1, int num2) {
